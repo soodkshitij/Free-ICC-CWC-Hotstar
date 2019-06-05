@@ -1,0 +1,17 @@
+{
+    "name": "ICC CWC - HOTSTAR",
+    "version": "1.0",
+    "description": "Watch free ICC CWC on Hotstar",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {}
+}
